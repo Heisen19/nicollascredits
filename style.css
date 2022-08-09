@@ -1,0 +1,133 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+html{
+
+	font-size: 62.5%;
+
+	color: #ebdfcc;
+}
+
+#frame{
+
+	padding-top: 10%;
+
+    position: relative;
+
+	max-width: 100vw;
+	width: 100%;
+
+	height: 100vh;
+
+	margin: auto;
+
+	text-align: center;
+
+	background: #021b2b;
+
+	overflow: scroll;
+
+	
+}
+
+h1{
+
+	font-size: 4rem;
+	font-family: 'Press Start 2P', cursive;
+
+}
+
+#frame-sub{
+
+	margin: auto;
+
+	max-width: 70%;
+	text-align: justify;
+
+	font-family: 'Bebas Neue', cursive;
+
+}
+
+h2{
+
+	font-size: 2.5rem;
+}
+
+
+#intro{
+
+
+}
+
+#cards{
+display: flex;
+	flex-direction: column;
+	gap: 30px;
+
+	align-items: center;
+	/*justify-content: center;*/
+
+
+}
+
+.card{
+
+	max-width: 75vw;
+	width: 100%;
+	height: 20vh;
+
+	background: #ff0841;
+
+	position: relative;
+	font-family: 'Press Start 2P', cursive;
+
+border-radius: 20px;
+
+-webkit-box-shadow:  8px -1px 76px  0px #ff0841; 
+    box-shadow: 8px -1px 76px  0px #ff0841;
+
+
+
+         }
+
+h3{
+
+	font-size: 2.3rem;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+}
+
+#call-to-action{
+font-family: 'Bebas Neue', cursive;
+
+
+
+}
+h4{
+
+	font-size: 2.5rem;
+}
+
+#main-button{
+
+
+	padding: 20px 40px;
+	border: none;
+
+	font-size: 2rem;
+
+	color: #ff0841;
+
+	font-family: 'Press Start 2P', cursive;
+
+	background: #ebdfcc;
+
+
+}
